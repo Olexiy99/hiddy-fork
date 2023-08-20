@@ -5,8 +5,8 @@ services:
     image: hiddify
     build: .
     ports:
-      - 443:443
-      - 80:80
+      - 30443:443
+      - 30080:80
     # privileged: true
     # cap_add:
     #   - NET_ADMIN
